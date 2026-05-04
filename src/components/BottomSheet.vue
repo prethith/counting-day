@@ -108,7 +108,8 @@ function onTouchEnd(e) {
   transform: translateY(calc(100% - 56px));
   transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   will-change: transform;
-  max-height: 88vh;
+  max-height: calc(100vh - var(--header-h) - 8px);
+  max-height: calc(100dvh - var(--header-h) - 8px);
   display: flex;
   flex-direction: column;
   box-shadow: 0 -4px 32px rgba(0,0,0,0.15);

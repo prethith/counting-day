@@ -35,36 +35,36 @@ export const STATE_REGISTRY = {
     acMeta:       keralaAcMeta,
   },
 
-  westbengal: {
-    label:        'West Bengal',
-    shortLabel:   'WB',
-    topoUrl:      '/WB_LAC.topojson',
-    topoObject:   'WestBengal',
-    idProperty:   'AC_NO',
-    nameProperty: 'AC_NAME',
-    eciUrl:       '/api/results',
-    eciCode:      'S25',
+  // westbengal: {
+  //   label:        'West Bengal',
+  //   shortLabel:   'WB',
+  //   topoUrl:      '/WB_LAC.topojson',
+  //   topoObject:   'WestBengal',
+  //   idProperty:   'AC_NO',
+  //   nameProperty: 'AC_NAME',
+  //   eciUrl:       '/api/results',
+  //   eciCode:      'S25',
 
-    partyAlliance: {
-      'AITC': 'TMC', 'TMC': 'TMC',
-      'BJP':  'NDA',
-      'INC':  'INDIA', 'CPI(M)': 'INDIA', 'CPI': 'INDIA',
-      'AIFB': 'INDIA', 'RSP': 'INDIA',
-      'SUCI': 'OTH',
-    },
+  //   partyAlliance: {
+  //     'AITC': 'TMC', 'TMC': 'TMC',
+  //     'BJP':  'NDA',
+  //     'INC':  'INDIA', 'CPI(M)': 'INDIA', 'CPI': 'INDIA',
+  //     'AIFB': 'INDIA', 'RSP': 'INDIA',
+  //     'SUCI': 'OTH',
+  //   },
 
-    alliances: {
-      TMC:   { label: 'TMC',    color: '#20c997', textColor: '#fff', description: 'All India Trinamool Congress' },
-      NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
-      INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
-      OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
-    },
+  //   alliances: {
+  //     TMC:   { label: 'TMC',    color: '#20c997', textColor: '#fff', description: 'All India Trinamool Congress' },
+  //     NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+  //     INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
+  //     OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
+  //   },
 
-    totalSeats:   294,
-    majority:     148,
-    pendingColor: '#e8e8e4',
-    acMeta:       null,
-  },
+  //   totalSeats:   294,
+  //   majority:     148,
+  //   pendingColor: '#e8e8e4',
+  //   acMeta:       null,
+  // },
 
   tamilnadu: {
     label:        'Tamil Nadu',
@@ -100,60 +100,60 @@ export const STATE_REGISTRY = {
     acMeta:       null,
   },
 
-  assam: {
-    label:        'Assam',
-    shortLabel:   'AS',
-    topoUrl:      '/Assam_LAC.topojson',
-    topoObject:   'layer',
-    idProperty:   'AC_NO',
-    nameProperty: 'AC_NAME',
-    eciUrl:       '/api/results',
-    eciCode:      'S03',
+  // assam: {
+  //   label:        'Assam',
+  //   shortLabel:   'AS',
+  //   topoUrl:      '/Assam_LAC.topojson',
+  //   topoObject:   'layer',
+  //   idProperty:   'AC_NO',
+  //   nameProperty: 'AC_NAME',
+  //   eciUrl:       '/api/results',
+  //   eciCode:      'S03',
 
-    partyAlliance: {
-      'BJP':   'NDA', 'AGP':  'NDA', 'UPPL': 'NDA',
-      'INC':   'INDIA', 'AIUDF': 'INDIA', 'CPI(M)': 'INDIA',
-      'BPF':   'OTH', 'RD':   'OTH',
-    },
+  //   partyAlliance: {
+  //     'BJP':   'NDA', 'AGP':  'NDA', 'UPPL': 'NDA',
+  //     'INC':   'INDIA', 'AIUDF': 'INDIA', 'CPI(M)': 'INDIA',
+  //     'BPF':   'OTH', 'RD':   'OTH',
+  //   },
 
-    alliances: {
-      NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
-      INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
-      OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
-    },
+  //   alliances: {
+  //     NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+  //     INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
+  //     OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
+  //   },
 
-    totalSeats:   126,
-    majority:     64,
-    pendingColor: '#e8e8e4',
-    acMeta:       null,
-  },
+  //   totalSeats:   126,
+  //   majority:     64,
+  //   pendingColor: '#e8e8e4',
+  //   acMeta:       null,
+  // },
 
-  puducherry: {
-    label:        'Puducherry',
-    shortLabel:   'PY',
-    topoUrl:      '/Puducherry_LAC.topojson',
-    topoObject:   'layer',
-    idProperty:   'AC_NO',
-    nameProperty: 'AC_NAME',
-    eciUrl:       '/api/results',
-    eciCode:      'U07',
+  // puducherry: {
+  //   label:        'Puducherry',
+  //   shortLabel:   'PY',
+  //   topoUrl:      '/Puducherry_LAC.topojson',
+  //   topoObject:   'layer',
+  //   idProperty:   'AC_NO',
+  //   nameProperty: 'AC_NAME',
+  //   eciUrl:       '/api/results',
+  //   eciCode:      'U07',
 
-    partyAlliance: {
-      'AINRC': 'NDA',   'BJP': 'NDA',   'AIADMK': 'NDA',
-      'DMK':   'INDIA', 'INC': 'INDIA', 'CPI':    'INDIA', 'VCK': 'INDIA',
-    },
+  //   partyAlliance: {
+  //     'AINRC': 'NDA',   'BJP': 'NDA',   'AIADMK': 'NDA',
+  //     'DMK':   'INDIA', 'INC': 'INDIA', 'CPI':    'INDIA', 'VCK': 'INDIA',
+  //   },
 
-    alliances: {
-      NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
-      INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
-      OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
-    },
+  //   alliances: {
+  //     NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+  //     INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
+  //     OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
+  //   },
 
-    totalSeats:   30,
-    majority:     16,
-    pendingColor: '#e8e8e4',
-    acMeta:       null,
-  },
+  //   totalSeats:   30,
+  //   majority:     16,
+  //   pendingColor: '#e8e8e4',
+  //   acMeta:       null,
+  // },
 }
 
 export const DEFAULT_STATE = 'kerala'

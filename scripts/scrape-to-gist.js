@@ -32,5 +32,5 @@ if (!res.ok) {
 }
 
 const firstState = Object.keys(results)[0];
-console.log("Gist updated at", results[firstState].updatedAt);
-console.log("States:", Object.keys(results).join(", "));
+// console.log("Gist updated at", results[firstState].updatedAt);
+// console.log("States:", Object.keys(results).join(", "));

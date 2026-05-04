@@ -55,13 +55,11 @@ export function useResults(stateConfig) {
 
     try {
       const url = `${cfg.eciUrl}?state=${cfg.eciCode}`
-      console.log("Fetching:", url)
 
       const res = await fetch(url, {
         cache: 'no-store'
       })
 
-      console.log("STATUS:", res.status)
 
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}`)
@@ -69,7 +67,6 @@ export function useResults(stateConfig) {
 
       const data = await res.json()
 
-      console.log("DATA RECEIVED:", data)
 
       const enriched = (data.constituencies || []).map(c => {
         const alliance = cfg.partyAlliance?.[c.leadingParty] ?? 'OTH'

@@ -143,7 +143,12 @@ const expandedParties = computed(() => {
   if (!expandedAlliance.value) return []
   const { partyAlliance } = props.stateConfig
   return Object.entries(partyTally.value)
-    .filter(([party]) => partyAlliance?.[party] === expandedAlliance.value)
+    .filter(([party]) => {
+      const mapped = partyAlliance?.[party]
+      return expandedAlliance.value === 'OTH'
+        ? !mapped || mapped === 'OTH'
+        : mapped === expandedAlliance.value
+    })
     .map(([party, { seats, declared }]) => ({ party, seats, declared }))
     .sort((a, b) => b.seats - a.seats)
 })

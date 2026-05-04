@@ -5,7 +5,7 @@
       <div class="header-left">
         <div class="logo">
           <span class="logo-dot" />
-          <span class="logo-text">Results Live</span>
+          <span class="logo-text">Results</span>
         </div>
         <StateSelector
           v-model="activeStateKey"
@@ -13,9 +13,6 @@
         />
       </div>
       <div class="header-right">
-        <div class="updated-at" v-if="lastPollAt">
-          {{ timeAgo }}
-        </div>
         <!-- Dark mode toggle -->
         <button class="icon-btn" @click="isDark = !isDark" :title="isDark ? 'Light mode' : 'Dark mode'">
           <svg v-if="isDark" viewBox="0 0 20 20" fill="currentColor" width="16" height="16"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4.22 1.78a1 1 0 011.42 1.42l-.71.7a1 1 0 11-1.42-1.41l.71-.71zM18 9a1 1 0 110 2h-1a1 1 0 110-2h1zM4.22 15.78a1 1 0 001.42-1.42l-.71-.7a1 1 0 00-1.42 1.41l.71.71zM10 16a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zm-5.78-.22a1 1 0 001.42-1.42l-.7-.71a1 1 0 00-1.42 1.42l.7.71zM4 10a1 1 0 110-2H3a1 1 0 000 2h1zm11.78 5.78a1 1 0 01-1.42-1.42l.71-.7a1 1 0 011.41 1.41l-.7.71zM10 6a4 4 0 100 8 4 4 0 000-8z"/></svg>
