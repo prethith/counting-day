@@ -82,15 +82,15 @@ export const STATE_REGISTRY = {
       'MDMK': 'DMK',
       'MMK':     'DMK', 'IUML': 'DMK', 'CPI(ML)': 'DMK',
       'AIADMK':  'AIADMK', 'PMK': 'AIADMK', 'BJP': 'AIADMK',
-      'AMMK': 'AIADMK',
-      'TMC(M)': 'NDA',
-      'NTK':   'NTK',
+      'AMMK': 'AIADMK', 'TMC(M)': 'AIADMK',
+      'TVK':   'TVK',
+      'NTK':   'OTH',
     },
 
     alliances: {
-      DMK:     { label: 'DMK Alliance',    color: '#c0392b', textColor: '#fff', description: 'DMK-led INDIA Alliance' },
-      AIADMK:  { label: 'AIADMK',          color: '#27ae60', textColor: '#fff', description: 'AIADMK' },
-      NDA:     { label: 'NDA',             color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+      DMK:     { label: 'DMK+',    color: '#c0392b', textColor: '#fff', description: 'DMK-led INDIA Alliance' },
+      TVK:     { label: 'TVK',             color: '#e72bd9', textColor: '#fff', description: 'TVK' },
+      AIADMK:  { label: 'AIADMK+',          color: '#27ae60', textColor: '#fff', description: 'AIADMK' },
       OTH:     { label: 'Others',          color: '#7f8c8d', textColor: '#fff', description: 'Others' },
     },
 
