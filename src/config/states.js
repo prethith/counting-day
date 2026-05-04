@@ -25,7 +25,7 @@ export const STATE_REGISTRY = {
     topoObject:  'layer',
     idProperty:  'AC_NO',
     nameProperty:'AC_NAME',
-    eciUrl: 'http://localhost:3000/api/results',
+    eciUrl: '/api/results',
     eciCode: 'S11',
 
     partyAlliance: {
