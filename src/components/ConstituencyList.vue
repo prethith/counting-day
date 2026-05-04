@@ -9,7 +9,7 @@
         <input
           v-model="searchQ"
           class="search-input"
-          placeholder="Search constituency…"
+          placeholder="Search constituency or candidate…"
           autocomplete="off"
           spellcheck="false"
         />
@@ -116,7 +116,10 @@ const filtered = computed(() => {
   if (q) {
     list = list.filter(c =>
       c.name.toLowerCase().includes(q) ||
-      c.candidates?.some(cand => cand.name.toLowerCase().includes(q))
+      c.candidates?.some(cand =>
+        cand.name.toLowerCase().includes(q) ||
+        cand.party.toLowerCase().includes(q)
+      )
     )
   }
   if (filterAlliance.value === 'pending') {

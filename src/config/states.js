@@ -88,9 +88,9 @@ export const STATE_REGISTRY = {
     },
 
     alliances: {
-      DMK:     { label: 'DMK+',    color: '#c0392b', textColor: '#fff', description: 'DMK+' },
+      DMK:     { label: 'DMK+',            color: '#c0392b', textColor: '#fff', description: 'DMK+' },
       TVK:     { label: 'TVK',             color: '#e72bd9', textColor: '#fff', description: 'TVK' },
-      AIADMK:  { label: 'AIADMK+',          color: '#27ae60', textColor: '#fff', description: 'AIADMK' },
+      AIADMK:  { label: 'AIADMK+',         color: '#27ae60', textColor: '#fff', description: 'AIADMK' },
       OTH:     { label: 'Others',          color: '#7f8c8d', textColor: '#fff', description: 'Others' },
     },
 
