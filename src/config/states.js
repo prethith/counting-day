@@ -14,7 +14,7 @@ export const STATE_REGISTRY = {
     partyAlliance: {
       'CPI(M)': 'LDF', 'CPM':    'LDF', 'CPI':    'LDF',
       'NCP':    'LDF', 'KC(M)':  'LDF', 'KC-M':   'LDF',
-      'JD(S)':  'LDF', 'RSP':    'LDF', 'FB':     'LDF', 'LJD': 'LDF',
+      'JD(S)':  'LDF', 'RSP':    'LDF', 'FB':     'LDF', 'LJD': 'LDF', "RJD":"LDF",
       'INC':    'UDF', 'IUML':   'UDF', 'KC':     'UDF',
       'KEC':    'UDF', 'KEC(M)': 'UDF', 'KEC(J)': 'UDF',
       'RMP':    'UDF', 'RMPOI':  'UDF', 'CMC':    'UDF', 'CMPKSC': 'UDF',
