@@ -51,12 +51,13 @@ export function useResults(stateConfig) {
 
   async function fetchResults() {
     const cfg = stateConfig.value
-    if (!cfg?.eciUrl) return
+    if (!cfg?.eciUrl || !cfg?.eciCode) return
 
     try {
-      console.log("Fetching:", cfg.eciUrl)
+      const url = `${cfg.eciUrl}?state=${cfg.eciCode}`
+      console.log("Fetching:", url)
 
-      const res = await fetch(cfg.eciUrl, {
+      const res = await fetch(url, {
         cache: 'no-store'
       })
 
@@ -140,7 +141,7 @@ export function useResults(stateConfig) {
   watch(
     stateConfig,
     (cfg) => {
-      if (!cfg?.eciUrl) return
+      if (!cfg?.eciUrl || !cfg?.eciCode) return
 
       loading.value = true
       constituencies.value = []

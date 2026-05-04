@@ -1,42 +1,25 @@
-/**
- * STATE REGISTRY
- * ──────────────
- * To add a new state:
- *   1. Drop its TopoJSON into /public/topojson/<state_id>.json
- *   2. Add an entry below.
- *   3. That's it — the map, sidebar, and polling all adapt automatically.
- *
- * topoObject  → the key inside topojson.objects that holds constituency features
- * idProperty  → the feature property that matches results.json constituency "id"
- * nameProperty→ the feature property used as a display label fallback
- * resultsUrl  → where to poll for live results.json
- * totalSeats  → total assembly seats (for majority line)
- * majority    → seats needed for majority
- * alliances   → display config for each party/alliance colour
- */
-
 import keralaAcMeta from '../data/acmeta/kerala.json'
 
 export const STATE_REGISTRY = {
   kerala: {
-    label:       'Kerala',
-    shortLabel:  'KL',
-    topoUrl:     '/Kerala_LAC.topojson',
-    topoObject:  'layer',
-    idProperty:  'AC_NO',
-    nameProperty:'AC_NAME',
-    eciUrl: '/api/results',
-    eciCode: 'S11',
+    label:        'Kerala',
+    shortLabel:   'KL',
+    topoUrl:      '/Kerala_LAC.topojson',
+    topoObject:   'layer',
+    idProperty:   'AC_NO',
+    nameProperty: 'AC_NAME',
+    eciUrl:       '/api/results',
+    eciCode:      'S11',
 
     partyAlliance: {
-      'CPI(M)': 'LDF', 'CPM':     'LDF', 'CPI':    'LDF',
-      'NCP':    'LDF', 'KC(M)':   'LDF', 'KC-M':   'LDF',
-      'JD(S)':  'LDF', 'RSP':     'LDF', 'FB':     'LDF', 'LJD': 'LDF',
-      'INC':    'UDF', 'IUML':    'UDF', 'KC':     'UDF',
-      'KEC':    'UDF', 'KEC(M)':  'UDF', 'KEC(J)': 'UDF',
-      'RMP':    'UDF', 'RMPOI':   'UDF', 'CMC':    'UDF', 'CMPKSC': 'UDF',
+      'CPI(M)': 'LDF', 'CPM':    'LDF', 'CPI':    'LDF',
+      'NCP':    'LDF', 'KC(M)':  'LDF', 'KC-M':   'LDF',
+      'JD(S)':  'LDF', 'RSP':    'LDF', 'FB':     'LDF', 'LJD': 'LDF',
+      'INC':    'UDF', 'IUML':   'UDF', 'KC':     'UDF',
+      'KEC':    'UDF', 'KEC(M)': 'UDF', 'KEC(J)': 'UDF',
+      'RMP':    'UDF', 'RMPOI':  'UDF', 'CMC':    'UDF', 'CMPKSC': 'UDF',
       'ISJD':   'UDF',
-      'BJP':    'NDA', 'BDJS':    'NDA', 'GHSS':   'NDA',
+      'BJP':    'NDA', 'BDJS':   'NDA', 'GHSS':   'NDA',
     },
 
     alliances: {
@@ -49,29 +32,126 @@ export const STATE_REGISTRY = {
     totalSeats:   140,
     majority:     71,
     pendingColor: '#e8e8e4',
+    acMeta:       keralaAcMeta,
+  },
 
-    acMeta: keralaAcMeta
+  westbengal: {
+    label:        'West Bengal',
+    shortLabel:   'WB',
+    topoUrl:      '/WB_LAC.topojson',
+    topoObject:   'layer',
+    idProperty:   'AC_NO',
+    nameProperty: 'AC_NAME',
+    eciUrl:       '/api/results',
+    eciCode:      'S25',
+
+    partyAlliance: {
+      'AITC': 'TMC', 'TMC': 'TMC',
+      'BJP':  'NDA',
+      'INC':  'INDIA', 'CPI(M)': 'INDIA', 'CPI': 'INDIA',
+      'AIFB': 'INDIA', 'RSP': 'INDIA',
+      'SUCI': 'OTH',
+    },
+
+    alliances: {
+      TMC:   { label: 'TMC',    color: '#20c997', textColor: '#fff', description: 'All India Trinamool Congress' },
+      NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+      INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
+      OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
+    },
+
+    totalSeats:   294,
+    majority:     148,
+    pendingColor: '#e8e8e4',
+    acMeta:       null,
+  },
+
+  tamilnadu: {
+    label:        'Tamil Nadu',
+    shortLabel:   'TN',
+    topoUrl:      '/TN_LAC.topojson',
+    topoObject:   'layer',
+    idProperty:   'AC_NO',
+    nameProperty: 'AC_NAME',
+    eciUrl:       '/api/results',
+    eciCode:      'S22',
+
+    partyAlliance: {
+      'DMK':     'DMK',  'INC':   'DMK',  'CPI(M)': 'DMK',
+      'CPI':     'DMK',  'VCK':   'DMK',  'MDMK':   'DMK',
+      'MMK':     'DMK',  'TVK':   'DMK',  'CPI(ML)': 'DMK',
+      'AIADMK':  'AIADMK',
+      'BJP':     'NDA',  'PMK':   'NDA',  'TMC(M)': 'NDA',
+      'AMMK':    'OTH',  'NTK':   'OTH',
+    },
+
+    alliances: {
+      DMK:     { label: 'DMK Alliance',    color: '#c0392b', textColor: '#fff', description: 'DMK-led INDIA Alliance' },
+      AIADMK:  { label: 'AIADMK',          color: '#27ae60', textColor: '#fff', description: 'AIADMK' },
+      NDA:     { label: 'NDA',             color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+      OTH:     { label: 'Others',          color: '#7f8c8d', textColor: '#fff', description: 'Others' },
+    },
+
+    totalSeats:   234,
+    majority:     118,
+    pendingColor: '#e8e8e4',
+    acMeta:       null,
+  },
+
+  assam: {
+    label:        'Assam',
+    shortLabel:   'AS',
+    topoUrl:      '/Assam_LAC.topojson',
+    topoObject:   'layer',
+    idProperty:   'AC_NO',
+    nameProperty: 'AC_NAME',
+    eciUrl:       '/api/results',
+    eciCode:      'S03',
+
+    partyAlliance: {
+      'BJP':   'NDA', 'AGP':  'NDA', 'UPPL': 'NDA',
+      'INC':   'INDIA', 'AIUDF': 'INDIA', 'CPI(M)': 'INDIA',
+      'BPF':   'OTH', 'RD':   'OTH',
+    },
+
+    alliances: {
+      NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+      INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
+      OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
+    },
+
+    totalSeats:   126,
+    majority:     64,
+    pendingColor: '#e8e8e4',
+    acMeta:       null,
+  },
+
+  puducherry: {
+    label:        'Puducherry',
+    shortLabel:   'PY',
+    topoUrl:      '/Puducherry_LAC.topojson',
+    topoObject:   'layer',
+    idProperty:   'AC_NO',
+    nameProperty: 'AC_NAME',
+    eciUrl:       '/api/results',
+    eciCode:      'U07',
+
+    partyAlliance: {
+      'AINRC': 'NDA',   'BJP': 'NDA',   'AIADMK': 'NDA',
+      'DMK':   'INDIA', 'INC': 'INDIA', 'CPI':    'INDIA', 'VCK': 'INDIA',
+    },
+
+    alliances: {
+      NDA:   { label: 'NDA',    color: '#ff944d', textColor: '#fff', description: 'National Democratic Alliance' },
+      INDIA: { label: 'INDIA',  color: '#19AAED', textColor: '#fff', description: 'INDIA Alliance' },
+      OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
+    },
+
+    totalSeats:   30,
+    majority:     16,
+    pendingColor: '#e8e8e4',
+    acMeta:       null,
   },
 }
 
 export const DEFAULT_STATE = 'kerala'
-  // ── Template for next state ────────────────────────────────────────────────
-  // andhra: {
-  //   label: 'Andhra Pradesh',
-  //   shortLabel: 'AP',
-  //   topoUrl: '/topojson/andhra.json',
-  //   topoObject: 'andhra_ac',
-  //   idProperty: 'AC_NO',
-  //   nameProperty: 'AC_NAME',
-  //   resultsUrl: import.meta.env.VITE_ANDHRA_RESULTS_URL || '/mock/andhra-results.json',
-  //   totalSeats: 175,
-  //   majority: 88,
-  //   alliances: {
-  //     YSRCP: { label: 'YSRCP', color: '#1a5276', textColor: '#fff', description: 'YSR Congress Party' },
-  //     TDP:   { label: 'TDP',   color: '#f39c12', textColor: '#fff', description: 'Telugu Desam Party' },
-  //     OTH:   { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
-  //   },
-  //   pendingColor: '#e8e8e4',
-  //   countingColor: '#f0e6c8',
-  // },
-

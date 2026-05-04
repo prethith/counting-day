@@ -1,4 +1,4 @@
-import { getResults } from "../lib/scraper.js";
+import { getAllResults } from "../lib/scraper.js";
 
 const { GH_TOKEN, GIST_ID } = process.env;
 
@@ -7,7 +7,7 @@ if (!GH_TOKEN || !GIST_ID) {
   process.exit(1);
 }
 
-const results = await getResults();
+const results = await getAllResults();
 
 const res = await fetch(`https://api.github.com/gists/${GIST_ID}`, {
   method: "PATCH",
@@ -31,4 +31,6 @@ if (!res.ok) {
   process.exit(1);
 }
 
-console.log("Gist updated at", results.updatedAt);
+const firstState = Object.keys(results)[0];
+console.log("Gist updated at", results[firstState].updatedAt);
+console.log("States:", Object.keys(results).join(", "));
