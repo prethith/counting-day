@@ -1,4 +1,4 @@
-import { STATE_HTML_PAGES } from "../lib/scraper.js";
+const VALID_STATES = new Set(['S03', 'S11', 'S22', 'S25', 'U07']);
 
 const GIST_URL = "https://gist.githubusercontent.com/prethith/f1a144a3d8837f25029e2921bbf37e80/raw/results.json";
 
@@ -12,9 +12,9 @@ export default async function handler(req, res) {
 
     const stateCode = req.query.state;
 
-    if (!stateCode || !STATE_HTML_PAGES[stateCode]) {
+    if (!stateCode || !VALID_STATES.has(stateCode)) {
       return res.status(400).json({
-        error: `Invalid or missing ?state= param. Valid: ${Object.keys(STATE_HTML_PAGES).join(", ")}`,
+        error: `Invalid or missing ?state= param. Valid: ${[...VALID_STATES].join(", ")}`,
       });
     }
 

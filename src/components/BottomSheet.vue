@@ -12,12 +12,15 @@
       class="bottom-sheet"
       :class="{ open: modelValue, peek: !modelValue && peekMode }"
       ref="sheetRef"
-      @touchstart="onTouchStart"
-      @touchmove="onTouchMove"
-      @touchend="onTouchEnd"
     >
       <!-- Drag handle -->
-      <div class="sheet-handle-wrap" @click="toggleSheet">
+      <div
+        class="sheet-handle-wrap"
+        @click="toggleSheet"
+        @touchstart="onTouchStart"
+        @touchmove="onTouchMove"
+        @touchend="onTouchEnd"
+      >
         <div class="sheet-handle" />
       </div>
 
@@ -136,9 +139,10 @@ function onTouchEnd(e) {
 
 .sheet-content {
   flex: 1;
-  overflow-y: auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
   padding: 0 16px 32px;
-  -webkit-overflow-scrolling: touch;
-  overscroll-behavior: contain;
 }
 </style>

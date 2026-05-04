@@ -29,7 +29,7 @@ defineEmits(['update:modelValue'])
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   padding-bottom: 1px;
-  flex-shrink: 0;
+  min-width: 0;
 }
 
 .state-selector::-webkit-scrollbar { display: none; }

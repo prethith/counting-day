@@ -13,11 +13,6 @@
         />
       </div>
       <div class="header-right">
-        <!-- Live pulse -->
-        <div class="live-badge" v-if="!resultsError">
-          <span class="live-dot" />
-          <span>LIVE</span>
-        </div>
         <div class="updated-at" v-if="lastPollAt">
           {{ timeAgo }}
         </div>
@@ -41,6 +36,7 @@
             :tally="tally"
             :declared="declared"
             :counting="counting"
+            :constituencies="constituencies"
           />
         </div>
 
@@ -66,6 +62,7 @@
             :tally="tally"
             :declared="declared"
             :counting="counting"
+            :constituencies="constituencies"
           />
         </div>
 
@@ -310,7 +307,7 @@ body {
   align-items: center;
   gap: 12px;
   min-width: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .header-right {

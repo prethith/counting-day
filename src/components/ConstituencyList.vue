@@ -245,6 +245,7 @@ function fmt(n) {
   overscroll-behavior: contain;
   scrollbar-width: thin;
   scrollbar-color: var(--border) transparent;
+  touch-action: pan-y;
 }
 
 .clist-row {
@@ -255,6 +256,8 @@ function fmt(n) {
   cursor: pointer;
   transition: background 0.1s;
   position: relative;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 62px;
 }
 
 .clist-row:hover { background: var(--bg-map); }

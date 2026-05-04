@@ -16,6 +16,7 @@
       class="election-svg"
       :viewBox="`0 0 ${svgW} ${svgH}`"
       preserveAspectRatio="xMidYMid meet"
+      shape-rendering="optimizeSpeed"
       @click.self="clearSelection"
     >
       <defs>
@@ -130,8 +131,9 @@ async function loadTopo(cfg) {
 
 function buildProjection() {
   if (!features.value.length || !svgW.value || !svgH.value) return
-  const proj = d3.geoMercator().fitSize(
-    [svgW.value, svgH.value],
+  const pad = 24
+  const proj = d3.geoMercator().fitExtent(
+    [[pad, pad], [svgW.value - pad, svgH.value - pad]],
     { type: 'FeatureCollection', features: features.value }
   )
   pathGen.value = d3.geoPath().projection(proj)
@@ -179,6 +181,7 @@ let zoomBehavior = null
 
 function setupZoom() {
   if (!svgRef.value || !mapGroupRef.value) return
+  if (props.isMobile) return
   zoomBehavior = d3.zoom()
     .scaleExtent([1, 8])
     .on('zoom', (event) => {
@@ -267,10 +270,13 @@ function clearSelection() {
   cursor: grab;
 }
 
+.map-group {
+  will-change: transform;
+}
+
 .election-svg:active { cursor: grabbing; }
 
 .constituency-path {
-  transition: opacity 0.15s ease, stroke-width 0.1s ease;
   cursor: pointer;
 }
 
