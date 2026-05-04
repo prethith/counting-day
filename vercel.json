@@ -1,0 +1,17 @@
+{
+  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }],
+  "headers": [
+    {
+      "source": "/mock/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "no-store" }]
+    },
+    {
+      "source": "/topojson/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, immutable" }]
+    },
+    {
+      "source": "/(.*)\\.js",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }]
+    }
+  ]
+}

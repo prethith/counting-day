@@ -1,0 +1,3494 @@
+{
+  "updatedAt": "2024-04-04T09:30:00Z",
+  "constituencies": [
+    {
+      "id": "1",
+      "name": "Kasaragod",
+      "district": "Kasaragod",
+      "leadingAlliance": "LDF",
+      "totalCounted": 18000,
+      "totalVoters": 28000,
+      "roundsComplete": 5,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "N.A. Nelson",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        },
+        {
+          "name": "P.B. Abdul Razak",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2100
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Manjeshwar",
+      "district": "Kasaragod",
+      "leadingAlliance": "UDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.B. Abdul Razak",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4100
+        },
+        {
+          "name": "M.A. Waheed",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Kanhangad",
+      "district": "Kasaragod",
+      "leadingAlliance": "LDF",
+      "totalCounted": 32000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "E.P. Jayarajan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 6800
+        },
+        {
+          "name": "K.V. Kunhiraman",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Thrikaripur",
+      "district": "Kasaragod",
+      "leadingAlliance": "LDF",
+      "totalCounted": 14000,
+      "totalVoters": 28000,
+      "roundsComplete": 4,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "C.H. Kunhambu",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2900
+        },
+        {
+          "name": "P.K. Fathima",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2100
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Payyannur",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 38000,
+      "totalVoters": 44000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "K.K. Ramachandran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 8200
+        },
+        {
+          "name": "A. Anil Kumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4100
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Kalliasseri",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "E.P. Jayarajan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5500
+        },
+        {
+          "name": "Mullappally Ramachandran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Thalassery",
+      "district": "Kannur",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Mullappally R.",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3100
+        },
+        {
+          "name": "T.V. Rajesh",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2800
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Kuthuparamba",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Ahammad Kunhu",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "V.K. Sreekandan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3100
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Mattannur",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 40000,
+      "totalVoters": 44000,
+      "roundsComplete": 14,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "K.K. Shailaja",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 12000
+        },
+        {
+          "name": "P. Jayarajan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5200
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Peravoor",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 20000,
+      "totalVoters": 30000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "T.V. Rajesh",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        },
+        {
+          "name": "A.N. Shamseer",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2600
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Kannur",
+      "district": "Kannur",
+      "leadingAlliance": "UDF",
+      "totalCounted": 34000,
+      "totalVoters": 40000,
+      "roundsComplete": 11,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K. Sudhakaran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5100
+        },
+        {
+          "name": "A.K. Balan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "M. Rajagopalan",
+          "party": "BJP",
+          "alliance": "NDA",
+          "votes": 1800
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Dharmadom",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 36000,
+      "totalVoters": 42000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "A.K. Balan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 7200
+        },
+        {
+          "name": "K. Sudhakaran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4800
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Payyanur",
+      "district": "Kannur",
+      "leadingAlliance": "NDA",
+      "totalCounted": 10000,
+      "totalVoters": 28000,
+      "roundsComplete": 3,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "C. Raghunath",
+          "party": "BJP",
+          "alliance": "NDA",
+          "votes": 2100
+        },
+        {
+          "name": "P. Sasi",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 1900
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Irikkur",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "I.C. Balakrishnan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4500
+        },
+        {
+          "name": "T.P. Peethambaran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Azhikode",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.K. Sasi",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        },
+        {
+          "name": "A.P. Abdullakutty",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2700
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Rajapur",
+      "district": "Kannur",
+      "leadingAlliance": "UDF",
+      "totalCounted": 18000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.T. A. Rahim",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2900
+        },
+        {
+          "name": "P.K. Krishnadas",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2400
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Iritty",
+      "district": "Kannur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "U.R. Pradeep",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5100
+        },
+        {
+          "name": "C.K. Hareendran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Vadakara",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 36000,
+      "totalVoters": 44000,
+      "roundsComplete": 11,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Shafi Parambil",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 6200
+        },
+        {
+          "name": "K.T. Jaleel",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Kuttiady",
+      "district": "Kozhikode",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.T.A. Rahim",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4100
+        },
+        {
+          "name": "V.K. Ibrahim",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Nadapuram",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 34000,
+      "totalVoters": 40000,
+      "roundsComplete": 11,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "K.M.A. Sheriff",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 7800
+        },
+        {
+          "name": "C.H. Suhail",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Koyilandy",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.V. Sumesh",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3500
+        },
+        {
+          "name": "A.N. Shamseer",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Perambra",
+      "district": "Kozhikode",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M.V. Jayarajan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "V.K. Kunhiraman",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Balussery",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M.K. Muneer",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5200
+        },
+        {
+          "name": "K.T. Jaleel",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Elathur",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.T. A. Rahim",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3900
+        },
+        {
+          "name": "P.K. Kunhalikutty",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3100
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Kozhikode North",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A.K. Saseendran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4800
+        },
+        {
+          "name": "P.T. A. Rahim",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Kozhikode South",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 32000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M.K. Muneer",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5600
+        },
+        {
+          "name": "A. Pradeep Kumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3900
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Beypore",
+      "district": "Kozhikode",
+      "leadingAlliance": "LDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.K. Ibrahim",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        },
+        {
+          "name": "M.K. Raghavan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2600
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Kunnamangalam",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 38000,
+      "totalVoters": 44000,
+      "roundsComplete": 13,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "P.K. Kunhalikutty",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 8400
+        },
+        {
+          "name": "A. Pradeep Kumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4100
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Koduvally",
+      "district": "Kozhikode",
+      "leadingAlliance": "UDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "U.A. Latheef",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 6200
+        },
+        {
+          "name": "K.P.A. Majeed",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Thiruvambady",
+      "district": "Kozhikode",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.P. Basheer",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        },
+        {
+          "name": "K.M.A. Sheriff",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2800
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Eranad",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 42000,
+      "totalVoters": 48000,
+      "roundsComplete": 14,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "P.K. Kunhalikutty",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 10200
+        },
+        {
+          "name": "P.K. Basheer",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Kondotty",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 36000,
+      "totalVoters": 44000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "T.P. Azeez",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 7800
+        },
+        {
+          "name": "V. Abdurahiman",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Manjeri",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 40000,
+      "totalVoters": 46000,
+      "roundsComplete": 13,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "A.P. Anil Kumar",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 9200
+        },
+        {
+          "name": "K.T. Jaleel",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4600
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Malappuram",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 38000,
+      "totalVoters": 46000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "P.K. Abdu Rabb",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 8600
+        },
+        {
+          "name": "M.K. Muneer",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Vengara",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 34000,
+      "totalVoters": 42000,
+      "roundsComplete": 11,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "M.K. Muneer",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 7200
+        },
+        {
+          "name": "P. Abdul Hameed",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Tirur",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 32000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V. Abdurahiman",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 6800
+        },
+        {
+          "name": "C.T. Ahammed Ali",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Tanur",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 28000,
+      "totalVoters": 38000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M.K. Muneer",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 5800
+        },
+        {
+          "name": "T.P. Peethambaran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Tirurangadi",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 30000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.K. Abdu Rabb",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 6400
+        },
+        {
+          "name": "A.P. Anil Kumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Mankada",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 26000,
+      "totalVoters": 36000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A. Salam",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 5200
+        },
+        {
+          "name": "P. Sasi",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Wandoor",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.K. Basheer",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 4800
+        },
+        {
+          "name": "C.H. Kunhambu",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2800
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Perinthalmanna",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 22000,
+      "totalVoters": 32000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.T. Balram",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3900
+        },
+        {
+          "name": "K.T. Jaleel",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Mankada",
+      "district": "Malappuram",
+      "leadingAlliance": null,
+      "leadingParty": null,
+      "leadingCandidate": null,
+      "leadVotes": 0,
+      "trailingCandidate": null,
+      "trailingParty": null,
+      "trailingVotes": 0,
+      "totalCounted": 0,
+      "totalVoters": 28000,
+      "roundsComplete": 0,
+      "totalRounds": 14,
+      "status": "pending",
+      "candidates": []
+    },
+    {
+      "id": "43",
+      "name": "Ponnani",
+      "district": "Malappuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 38000,
+      "totalVoters": 46000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "E.T. Muhammad Basheer",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 8800
+        },
+        {
+          "name": "K.P.A. Majeed",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Thrithala",
+      "district": "Palakkad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.K. Ramachandran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        },
+        {
+          "name": "V.K. Sreekandan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Pattambi",
+      "district": "Palakkad",
+      "leadingAlliance": "UDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M.B. Rajesh",
+          "party": "IUML",
+          "alliance": "UDF",
+          "votes": 5200
+        },
+        {
+          "name": "A.K. Balan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Shornur",
+      "district": "Palakkad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.K. Sasi",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4600
+        },
+        {
+          "name": "V.K. Ibrahim",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Ottapalam",
+      "district": "Palakkad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "U.R. Pradeep",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3900
+        },
+        {
+          "name": "M.K. Raghavan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3000
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Kongad",
+      "district": "Palakkad",
+      "leadingAlliance": "NDA",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "E. Sreedharan",
+          "party": "BJP",
+          "alliance": "NDA",
+          "votes": 4200
+        },
+        {
+          "name": "V.K. Sreekandan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Mannarkkad",
+      "district": "Palakkad",
+      "leadingAlliance": "UDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "N.A. Nelson",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        },
+        {
+          "name": "M.V. Jayarajan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2600
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Malampuzha",
+      "district": "Palakkad",
+      "leadingAlliance": "NDA",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "E. Sreedharan",
+          "party": "BJP",
+          "alliance": "NDA",
+          "votes": 5800
+        },
+        {
+          "name": "P.B. Abdul Razak",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Palakkad",
+      "district": "Palakkad",
+      "leadingAlliance": "NDA",
+      "totalCounted": 34000,
+      "totalVoters": 42000,
+      "roundsComplete": 11,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "C. Krishnakumar",
+          "party": "BJP",
+          "alliance": "NDA",
+          "votes": 6200
+        },
+        {
+          "name": "S. Krishnakumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4800
+        },
+        {
+          "name": "Shafi Parambil",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3100
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Tarur",
+      "district": "Palakkad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.S. Sunil Kumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3400
+        },
+        {
+          "name": "P.K. Krishnadas",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2600
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Chittur",
+      "district": "Palakkad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A. Pradeep Kumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4100
+        },
+        {
+          "name": "N.A. Nelson",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Nenmara",
+      "district": "Palakkad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.K. Shailaja",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        },
+        {
+          "name": "P.T. A. Rahim",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "Alathur",
+      "district": "Palakkad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "T.V. Rajesh",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4600
+        },
+        {
+          "name": "K. Sudhakaran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Chelakkara",
+      "district": "Thrissur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Ramya Haridas",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5200
+        },
+        {
+          "name": "K.P. Dhanapalan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Kunnamkulam",
+      "district": "Thrissur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.C. George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "V.S. Sunil Kumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Guruvayur",
+      "district": "Thrissur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 32000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.D. Satheeshan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 6200
+        },
+        {
+          "name": "K.P. Dhanapalan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4100
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Manalur",
+      "district": "Thrissur",
+      "leadingAlliance": "UDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Shafi Parambil",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        },
+        {
+          "name": "P.C. George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Wadakkanchery",
+      "district": "Thrissur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A.K. Balan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "P.T. A. Rahim",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Ollur",
+      "district": "Thrissur",
+      "leadingAlliance": "UDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M.K. Muneer",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        },
+        {
+          "name": "T.V. Rajesh",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Thrissur",
+      "district": "Thrissur",
+      "leadingAlliance": "NDA",
+      "totalCounted": 38000,
+      "totalVoters": 46000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K. Surendran",
+          "party": "BJP",
+          "alliance": "NDA",
+          "votes": 7200
+        },
+        {
+          "name": "K. Muraleedharan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5800
+        },
+        {
+          "name": "V.S. Sunilkumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4900
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Nattika",
+      "district": "Thrissur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.K. Sasi",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3900
+        },
+        {
+          "name": "K.V. Sumesh",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3000
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Irinjalakuda",
+      "district": "Thrissur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.D. Satheeshan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "A.K. Saseendran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Puthukkad",
+      "district": "Thrissur",
+      "leadingAlliance": "LDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.K. Ramachandran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        },
+        {
+          "name": "V.D. Satheeshan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2800
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Chalakudy",
+      "district": "Thrissur",
+      "leadingAlliance": "UDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Benny Behanan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5600
+        },
+        {
+          "name": "P.C. George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4100
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Kodungallur",
+      "district": "Thrissur",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Benny Behanan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4200
+        },
+        {
+          "name": "P.T. A. Rahim",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3300
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Perumbavoor",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A. Pradeep Kumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "V.K. Ibrahim",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Angamaly",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.J. Joseph",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3900
+        },
+        {
+          "name": "Benny Behanan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3100
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Aluva",
+      "district": "Ernakulam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Anwar Sadath",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5200
+        },
+        {
+          "name": "P.J. Joseph",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3900
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Kalamassery",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 34000,
+      "totalVoters": 42000,
+      "roundsComplete": 11,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V. Sivankutty",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 6800
+        },
+        {
+          "name": "Anwar Sadath",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4600
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Paravur",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.J. Maxi",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3400
+        },
+        {
+          "name": "V. Sivankutty",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2700
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Vypen",
+      "district": "Ernakulam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.J. Maxi",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4100
+        },
+        {
+          "name": "K.K. Shailaja",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "Kochi",
+      "district": "Ernakulam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 38000,
+      "totalVoters": 46000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "Hibi Eden",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 7600
+        },
+        {
+          "name": "V.S. Sivakumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Ernakulam",
+      "district": "Ernakulam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 32000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "T.J. Vinod",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 6400
+        },
+        {
+          "name": "P.J. Joseph",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4600
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Thrippunithura",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P. Rajeev",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5200
+        },
+        {
+          "name": "Hibi Eden",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3900
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "Kovalam",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M. Swaraj",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "T.J. Vinod",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "Kunnathunad",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "E.T. Muhammad Basheer",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        },
+        {
+          "name": "K.J. Maxi",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2800
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Muvattupuzha",
+      "district": "Ernakulam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.J. Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4400
+        },
+        {
+          "name": "P. Rajeev",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Kothamangalam",
+      "district": "Ernakulam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M. Swaraj",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        },
+        {
+          "name": "P.J. Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3000
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Devikulam",
+      "district": "Idukki",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A.C. Moideen",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "Francis George",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Udumbanchola",
+      "district": "Idukki",
+      "leadingAlliance": "UDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Francis George",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        },
+        {
+          "name": "A.C. Moideen",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Thodupuzha",
+      "district": "Idukki",
+      "leadingAlliance": "UDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Roshy Augustine",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5200
+        },
+        {
+          "name": "P.J. Joseph",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "name": "Idukki",
+      "district": "Idukki",
+      "leadingAlliance": "UDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Roshy Augustine",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4800
+        },
+        {
+          "name": "A.C. Moideen",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Peerumade",
+      "district": "Idukki",
+      "leadingAlliance": "UDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.J. Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4100
+        },
+        {
+          "name": "Francis George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Aroor",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A.M. Ariff",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5800
+        },
+        {
+          "name": "Shafi Parambil",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4100
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "Cherthala",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 32000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "A.M. Ariff",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 6200
+        },
+        {
+          "name": "Benny Behanan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4400
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "Alappuzha",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 40000,
+      "totalVoters": 48000,
+      "roundsComplete": 13,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "A.M. Ariff",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 8400
+        },
+        {
+          "name": "T.J. Vinod",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5200
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "Ambalapuzha",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "H. Salam",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5600
+        },
+        {
+          "name": "A.M. Ariff",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4000
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": "Haripad",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "G.R. Anil",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "H. Salam",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": "Kayamkulam",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "G.R. Anil",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5200
+        },
+        {
+          "name": "P. Prasad",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "Mavelikkara",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P. Prasad",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4400
+        },
+        {
+          "name": "G.R. Anil",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3300
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "Chengannur",
+      "district": "Alappuzha",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Saji Cheriyan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5600
+        },
+        {
+          "name": "D. Vijayakumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4000
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Thiruvalla",
+      "district": "Pathanamthitta",
+      "leadingAlliance": "UDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Mons Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5800
+        },
+        {
+          "name": "Saji Cheriyan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "Ranni",
+      "district": "Pathanamthitta",
+      "leadingAlliance": "UDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Mons Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4800
+        },
+        {
+          "name": "P.C. George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "Aranmula",
+      "district": "Pathanamthitta",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Veena George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3900
+        },
+        {
+          "name": "Mons Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3100
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Konni",
+      "district": "Pathanamthitta",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.C. George",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4400
+        },
+        {
+          "name": "Veena George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "name": "Adoor",
+      "district": "Pathanamthitta",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.K. Shailaja",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5200
+        },
+        {
+          "name": "D. Vijayakumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "Pandalam",
+      "district": "Pathanamthitta",
+      "leadingAlliance": "UDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.J. Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        },
+        {
+          "name": "Veena George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2800
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "Karunagappally",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M. Vijin",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5600
+        },
+        {
+          "name": "P. Prasad",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4000
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "Chavara",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M. Vijin",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "P.C. George",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Kunnathur",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "G. Sudhakaran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "N.K. Premachandran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Kottarakkara",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.N. Balagopal",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5800
+        },
+        {
+          "name": "G. Sudhakaran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Pathanapuram",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.N. Balagopal",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4400
+        },
+        {
+          "name": "M. Vijin",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "Punalur",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.N. Balagopal",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5200
+        },
+        {
+          "name": "N.K. Premachandran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Chadayamangalam",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "G. Sudhakaran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        },
+        {
+          "name": "K.N. Balagopal",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Kundara",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M. Vijin",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5600
+        },
+        {
+          "name": "G. Sudhakaran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4000
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Kollam",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 38000,
+      "totalVoters": 46000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "N.K. Premachandran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 7200
+        },
+        {
+          "name": "K.N. Balagopal",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5100
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Eravipuram",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M. Vijin",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "N.K. Premachandran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Chathannoor",
+      "district": "Kollam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.N. Balagopal",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "M. Vijin",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "Thiruvananthapuram",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.S. Sivakumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "K. Muraleedharan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3100
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "Kazhakkoottam",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Kadakampally Surendran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5600
+        },
+        {
+          "name": "V.S. Sivakumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4000
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Vattiyoorkavu",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.K. Prasanth",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "Shashi Tharoor",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "Nemom",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "NDA",
+      "totalCounted": 34000,
+      "totalVoters": 42000,
+      "roundsComplete": 11,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "O. Rajagopal",
+          "party": "BJP",
+          "alliance": "NDA",
+          "votes": 6200
+        },
+        {
+          "name": "V.K. Prasanth",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "Shashi Tharoor",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3900
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Parassala",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "C. Divakaran",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5200
+        },
+        {
+          "name": "O. Rajagopal",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "Kovalam",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "M. Vincent",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4400
+        },
+        {
+          "name": "C. Divakaran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3300
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Neyyattinkara",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "UDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Manjalamkuzhi Ali",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        },
+        {
+          "name": "M. Vincent",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3100
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "Vamanapuram",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "D. Vijayakumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "Manjalamkuzhi Ali",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Attingal",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Adv. Bindhu Krishna",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5600
+        },
+        {
+          "name": "D. Vijayakumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4000
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "name": "Chirayinkeezhu",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Adv. Bindhu Krishna",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "Adv. Bindhu Krishna",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "name": "Kattakkada",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "V.S. Sivakumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 5200
+        },
+        {
+          "name": "K. Muraleedharan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "name": "Vilavancode",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.K. Shailaja",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "V.S. Sivakumar",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Killiyoor",
+      "district": "Thiruvananthapuram",
+      "leadingAlliance": null,
+      "leadingParty": null,
+      "leadingCandidate": null,
+      "leadVotes": 0,
+      "trailingCandidate": null,
+      "trailingParty": null,
+      "trailingVotes": 0,
+      "totalCounted": 0,
+      "totalVoters": 28000,
+      "roundsComplete": 0,
+      "totalRounds": 14,
+      "status": "pending",
+      "candidates": []
+    },
+    {
+      "id": "124",
+      "name": "Nadathara",
+      "district": "Thrissur",
+      "leadingAlliance": null,
+      "leadingParty": null,
+      "leadingCandidate": null,
+      "leadVotes": 0,
+      "trailingCandidate": null,
+      "trailingParty": null,
+      "trailingVotes": 0,
+      "totalCounted": 0,
+      "totalVoters": 28000,
+      "roundsComplete": 0,
+      "totalRounds": 14,
+      "status": "pending",
+      "candidates": []
+    },
+    {
+      "id": "125",
+      "name": "Vaikom",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Kadakampally Surendran",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4800
+        },
+        {
+          "name": "V.S. Sivakumar",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "name": "Ettumanur",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 28000,
+      "totalVoters": 36000,
+      "roundsComplete": 9,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Mons Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5200
+        },
+        {
+          "name": "K.N. Balagopal",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Kottayam",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 32000,
+      "totalVoters": 40000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Roshy Augustine",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 6200
+        },
+        {
+          "name": "P.C. George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4600
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "name": "Puthuppally",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.C. George",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5800
+        },
+        {
+          "name": "Roshy Augustine",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "name": "Changanacherry",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Mons Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4800
+        },
+        {
+          "name": "Saji Cheriyan",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3600
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "name": "Kaduthuruthy",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Roshy Augustine",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4400
+        },
+        {
+          "name": "P.J. Joseph",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "name": "Erattupetta",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.J. Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        },
+        {
+          "name": "Veena George",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2900
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "name": "Meenachil",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 20000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Mons Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3600
+        },
+        {
+          "name": "P.J. Joseph",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 2800
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "name": "Uzhavoor",
+      "district": "Kottayam",
+      "leadingAlliance": "LDF",
+      "totalCounted": 22000,
+      "totalVoters": 30000,
+      "roundsComplete": 7,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "K.M. Mani",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        },
+        {
+          "name": "Mons Joseph",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3200
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "name": "Pala",
+      "district": "Kottayam",
+      "leadingAlliance": "UDF",
+      "totalCounted": 36000,
+      "totalVoters": 44000,
+      "roundsComplete": 12,
+      "totalRounds": 14,
+      "status": "declared",
+      "candidates": [
+        {
+          "name": "Jose K. Mani",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 7200
+        },
+        {
+          "name": "K.M. Mani",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Sulthan Bathery",
+      "district": "Wayanad",
+      "leadingAlliance": "UDF",
+      "totalCounted": 30000,
+      "totalVoters": 38000,
+      "roundsComplete": 10,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "Shafi Parambil",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 5800
+        },
+        {
+          "name": "A.C. Moideen",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4200
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "name": "Mananthavady",
+      "district": "Wayanad",
+      "leadingAlliance": "LDF",
+      "totalCounted": 26000,
+      "totalVoters": 34000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "O.R. Kelu",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 4800
+        },
+        {
+          "name": "Shafi Parambil",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 3800
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "Kalpetta",
+      "district": "Wayanad",
+      "leadingAlliance": "UDF",
+      "totalCounted": 24000,
+      "totalVoters": 32000,
+      "roundsComplete": 8,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "I.C. Balakrishnan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 4400
+        },
+        {
+          "name": "O.R. Kelu",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3400
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "name": "Thiruvambady",
+      "district": "Kozhikode",
+      "leadingAlliance": "LDF",
+      "totalCounted": 18000,
+      "totalVoters": 28000,
+      "roundsComplete": 6,
+      "totalRounds": 14,
+      "status": "counting",
+      "candidates": [
+        {
+          "name": "P.P. Basheer",
+          "party": "CPM",
+          "alliance": "LDF",
+          "votes": 3200
+        },
+        {
+          "name": "I.C. Balakrishnan",
+          "party": "INC",
+          "alliance": "UDF",
+          "votes": 2600
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "name": "Koyilandy",
+      "district": "Kozhikode",
+      "leadingAlliance": null,
+      "leadingParty": null,
+      "leadingCandidate": null,
+      "leadVotes": 0,
+      "trailingCandidate": null,
+      "trailingParty": null,
+      "trailingVotes": 0,
+      "totalCounted": 0,
+      "totalVoters": 28000,
+      "roundsComplete": 0,
+      "totalRounds": 14,
+      "status": "pending",
+      "candidates": []
+    },
+    {
+      "id": "140",
+      "name": "Vatakara",
+      "district": "Kozhikode",
+      "leadingAlliance": null,
+      "leadingParty": null,
+      "leadingCandidate": null,
+      "leadVotes": 0,
+      "trailingCandidate": null,
+      "trailingParty": null,
+      "trailingVotes": 0,
+      "totalCounted": 0,
+      "totalVoters": 28000,
+      "roundsComplete": 0,
+      "totalRounds": 14,
+      "status": "pending",
+      "candidates": []
+    }
+  ]
+}
