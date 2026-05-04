@@ -130,26 +130,20 @@ const partyTally = computed(() => {
   for (const c of props.constituencies ?? []) {
     const party = c.candidates?.[0]?.party
     if (!party || !c.leadingAlliance) continue
-    if (!counts[party]) counts[party] = { seats: 0, declared: 0 }
-    counts[party].seats++
+    const key = `${c.leadingAlliance}||${party}`
+    if (!counts[key]) counts[key] = { party, alliance: c.leadingAlliance, seats: 0, declared: 0 }
+    counts[key].seats++
     if (c.roundsComplete >= c.totalRounds && c.totalRounds > 0) {
-      counts[party].declared++
+      counts[key].declared++
     }
   }
-  return counts
+  return Object.values(counts)
 })
 
 const expandedParties = computed(() => {
   if (!expandedAlliance.value) return []
-  const { partyAlliance } = props.stateConfig
-  return Object.entries(partyTally.value)
-    .filter(([party]) => {
-      const mapped = partyAlliance?.[party]
-      return expandedAlliance.value === 'OTH'
-        ? !mapped || mapped === 'OTH'
-        : mapped === expandedAlliance.value
-    })
-    .map(([party, { seats, declared }]) => ({ party, seats, declared }))
+  return partyTally.value
+    .filter(r => r.alliance === expandedAlliance.value)
     .sort((a, b) => b.seats - a.seats)
 })
 </script>
