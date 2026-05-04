@@ -78,13 +78,17 @@ export function useResults(stateConfig) {
           name: c.constituency,
           district: c.district ?? '—',
 
-          status: c.status || 'counting',
-
           leadingAlliance: alliance,
           leadMargin: c.margin ?? null,
 
           roundsComplete: c.round ? Number(String(c.round).split('/')[0]) : 0,
           totalRounds: c.round ? Number(String(c.round).split('/')[1]) : 0,
+          get status() {
+            if (!c.status) return 'pending'
+            return this.totalRounds > 0 && this.roundsComplete >= this.totalRounds
+              ? 'declared'
+              : 'counting'
+          },
 
           candidates: [
             {
