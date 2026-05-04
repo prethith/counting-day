@@ -29,6 +29,13 @@ export const STATE_REGISTRY = {
       OTH: { label: 'Others', color: '#7f8c8d', textColor: '#fff', description: 'Others' },
     },
 
+    constituencyOverrides: {
+      'PALA':         'UDF',
+      'AMBALAPPUZHA': 'UDF',
+      'PAYYANNUR':    'UDF',
+      'TALIPARAMBA':  'UDF',
+    },
+
     totalSeats:   140,
     majority:     71,
     pendingColor: '#e8e8e4',

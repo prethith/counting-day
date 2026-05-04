@@ -69,7 +69,9 @@ export function useResults(stateConfig) {
 
 
       const enriched = (data.constituencies || []).map(c => {
-        const alliance = cfg.partyAlliance?.[c.leadingParty] ?? 'OTH'
+        const alliance = cfg.constituencyOverrides?.[c.constituency?.toUpperCase()]
+          ?? cfg.partyAlliance?.[c.leadingParty]
+          ?? 'OTH'
 
         return {
           id: c.id,
