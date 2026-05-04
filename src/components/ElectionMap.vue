@@ -18,6 +18,20 @@
       preserveAspectRatio="xMidYMid meet"
       @click.self="clearSelection"
     >
+      <defs>
+        <pattern
+          v-for="(alliance, key) in stateConfig?.alliances"
+          :key="key"
+          :id="`hatch-${key}`"
+          patternUnits="userSpaceOnUse"
+          width="6"
+          height="6"
+          patternTransform="rotate(45)"
+        >
+          <rect width="6" height="6" :fill="alliance.color" opacity="0.25" />
+          <line x1="0" y1="0" x2="0" y2="6" :stroke="alliance.color" stroke-width="3" />
+        </pattern>
+      </defs>
       <g ref="mapGroupRef" class="map-group">
         <path
           v-for="feature in features"
@@ -190,7 +204,8 @@ function getColor(feature) {
   if (!c || c.status === 'pending') return cfg.pendingColor
   const alliance = cfg.alliances[c.leadingAlliance]
   if (!alliance) return '#7f8c8d'
-  return c.status === 'declared' ? alliance.color : alliance.color + 'aa'
+  const allRoundsDone = c.totalRounds > 0 && c.roundsComplete >= c.totalRounds
+  return allRoundsDone ? alliance.color : `url(#hatch-${c.leadingAlliance})`
 }
 
 // ── Interaction ───────────────────────────────────────────────────────────────

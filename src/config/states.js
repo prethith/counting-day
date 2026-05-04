@@ -78,11 +78,13 @@ export const STATE_REGISTRY = {
 
     partyAlliance: {
       'DMK':     'DMK',  'INC':   'DMK',  'CPI(M)': 'DMK',
-      'CPI':     'DMK',  'VCK':   'DMK',  'MDMK':   'DMK',
-      'MMK':     'DMK',  'TVK':   'DMK',  'CPI(ML)': 'DMK',
-      'AIADMK':  'AIADMK',
-      'BJP':     'NDA',  'PMK':   'NDA',  'TMC(M)': 'NDA',
-      'AMMK':    'OTH',  'NTK':   'OTH',
+      'CPI':     'DMK',  'VCK':   'DMK',  'DMDK':   'DMK',
+      'MDMK': 'DMK',
+      'MMK':     'DMK', 'IUML': 'DMK', 'CPI(ML)': 'DMK',
+      'AIADMK':  'AIADMK', 'PMK': 'AIADMK', 'BJP': 'AIADMK',
+      'AMMK': 'AIADMK',
+      'TMC(M)': 'NDA',
+      'NTK':   'NTK',
     },
 
     alliances: {

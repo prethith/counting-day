@@ -55,7 +55,7 @@
           />
           <span class="cand-name">{{ cand.name }}</span>
           <span class="cand-party">({{ cand.party }})</span>
-          <span class="cand-votes">{{ fmt(cand.votes) }}</span>
+          <span class="cand-votes" v-if="cand.votes != null">{{ fmt(cand.votes) }}</span>
         </div>
       </div>
 
